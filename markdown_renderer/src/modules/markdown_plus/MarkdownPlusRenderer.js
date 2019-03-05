@@ -65,7 +65,7 @@ class MarkdownPlusRenderer {
       sIndex = text.indexOf(startTag, eIndex + endTag.length);
       eIndex = eIndex + endTag.length;
       if (sIndex < 0) {
-        ele.push(text.substring(eIndex, text.length()));
+        ele.push(text.substring(eIndex, text.length));
       }
     }
   };
